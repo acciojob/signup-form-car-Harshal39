@@ -10,23 +10,23 @@
 	<!-- the entire body must be written by student -->
 	<form method = "post">
 		<label for = "name">Name</label>
-		<input id = "name" type = "text" placeholder = "Name">
+		<input id = "name" type = "text" placeholder = "Name" required>
 		<label for = "email">Email</label>
-		<input id = "email" type = "email" placeholder = "Email">
+		<input id = "email" type = "email" placeholder = "Email" required>
 		<label for = "gender">Gender</label>
-		<input id = "gender_m,gender_f" type = "radio">
+		<input id = "gender_m,gender_f" type = "radio" name = "gender" required>
 		<label for = "car brands">Car Brands</label>
-		<input id = "cars" type = "select" placeholder = "--Please choose an option--">
+		<input id = "cars" type = "select" placeholder = "--Please choose an option--" required>
 		<label for = "age">Age</label>
-		<input id = "age" type = "number" placeholder = "Age">
+		<input id = "age" type = "number" placeholder = "Age" required>
 		<label for = "dob">DOB</label>
-		<input id = "dob" type = "date">
+		<input id = "dob" type = "date" required>
 		<label for = "tel">Phone Number</label>
 		<input id = "tel" type = "tel" placeholder = "xxx-xxx-xxxx">
 		<label for = "password">Password</label>
-		<input id = "password" type = "password" placeholder = "Password">
+		<input id = "password" type = "password" placeholder = "Password" required>
 		<label for = "tos">I agree to TOS</label>
-		<input id = "tos" type = "checkbox">
+		<input id = "tos" type = "checkbox" required>
 	</form>
 	<button type = "submit">Submit</button>
     <script type="text/javascript" src="./script.js">
